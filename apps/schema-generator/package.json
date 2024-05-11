@@ -1,0 +1,36 @@
+{
+  "name": "schema-generator",
+  "version": "0.1.0",
+  "scripts": {
+    "reset": "npx rimraf ./**/node_modules",
+    "dev": "modern dev",
+    "build": "modern build",
+    "start": "modern start",
+    "serve": "modern serve",
+    "new": "modern new",
+    "lint": "modern lint",
+    "upgrade": "modern upgrade"
+  },
+  "dependencies": {
+    "@modern-js/runtime": "2.49.3",
+    "antd": "^5.17.0",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0"
+  },
+  "devDependencies": {
+    "@modern-js-app/eslint-config": "2.49.3",
+    "@modern-js/app-tools": "2.49.3",
+    "@modern-js/eslint-config": "2.49.3",
+    "@modern-js/tsconfig": "2.49.3",
+    "@types/jest": "~29.2.6",
+    "@types/node": "~16.11.68",
+    "@types/react": "~18.0.38",
+    "@types/react-dom": "~18.0.11",
+    "husky": "~8.0.3",
+    "lint-staged": "~13.1.4",
+    "prettier": "~2.8.8",
+    "rimraf": "~3.0.2",
+    "sass": "^1.77.0",
+    "typescript": "~5.0.4"
+  }
+}

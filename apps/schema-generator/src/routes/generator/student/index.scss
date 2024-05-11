@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.student-generator {
+  width: 99vw;
+  height: 100vh;
+
+  .left {
+    padding: 8px;
+  }
+
+  .middle {
+    padding: 8px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  }
+
+  .right {
+    padding: 8px;
+  }
+}

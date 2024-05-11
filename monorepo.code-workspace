@@ -1,6 +1,14 @@
 {
   "folders": [
     {
+      "name": "schale-db-types",
+      "path": "packages/schale-db-types/"
+    },
+    {
+      "name": "schema-generator",
+      "path": "apps/schema-generator/"
+    },
+    {
       "name": "monorepo",
       "path": "."
     }
@@ -23,7 +31,10 @@
       "**/node_modules": true
     },
     //
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
